@@ -9,6 +9,7 @@ set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
 
 foreach(name
     0026_Remove_Duplicates_from_Sorted_Array
+    0189_Rotate_Array
 )
   add_executable(${name} ${name}.cpp)
   target_link_libraries(${name} PRIVATE)
