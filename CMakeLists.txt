@@ -13,6 +13,7 @@ foreach(name
     0344_Reverse_String
     0007_Reverse_Integer
     0387_First_Unique_Character_in_a_String
+    0237_Delete_Node_in_a_Linked_List
 )
   add_executable(${name} ${name}.cpp)
   target_link_libraries(${name} PRIVATE)
