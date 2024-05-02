@@ -12,6 +12,7 @@ foreach(name
     0189_Rotate_Array
     0344_Reverse_String
     0007_Reverse_Integer
+    0387_First_Unique_Character_in_a_String
 )
   add_executable(${name} ${name}.cpp)
   target_link_libraries(${name} PRIVATE)
