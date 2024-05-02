@@ -11,6 +11,7 @@ foreach(name
     0026_Remove_Duplicates_from_Sorted_Array
     0189_Rotate_Array
     0344_Reverse_String
+    0007_Reverse_Integer
 )
   add_executable(${name} ${name}.cpp)
   target_link_libraries(${name} PRIVATE)
