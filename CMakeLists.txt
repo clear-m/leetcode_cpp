@@ -14,6 +14,7 @@ foreach(name
     0007_Reverse_Integer
     0387_First_Unique_Character_in_a_String
     0237_Delete_Node_in_a_Linked_List
+    0019_Remove_Nth_Node_From_End_of_List
 )
   add_executable(${name} ${name}.cpp)
   target_link_libraries(${name} PRIVATE)
