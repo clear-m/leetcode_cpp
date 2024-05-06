@@ -16,6 +16,7 @@ foreach(name
     0237_Delete_Node_in_a_Linked_List
     0019_Remove_Nth_Node_From_End_of_List
     0104_Maximum_Depth_of_Binary_Tree
+    0088_Merge_Sorted_Array
 )
   add_executable(${name} ${name}.cpp)
   target_link_libraries(${name} PRIVATE)

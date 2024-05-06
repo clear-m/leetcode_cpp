@@ -26,6 +26,7 @@ struct ListNode
     ListNode(int x, ListNode *next) : val(x), next(next) {}
 };
 
+//TODO: try to implement with backward lookup (with one ptr)
 ListNode *removeNthFromEnd(ListNode *head, int n)
 {
     ListNode *slow = head;
