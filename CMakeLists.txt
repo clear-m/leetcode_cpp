@@ -18,6 +18,8 @@ foreach(name
     0104_Maximum_Depth_of_Binary_Tree
     0088_Merge_Sorted_Array
     0278_First_Bad_Version
+    0070_Climbing_Stairs
+    0217_Contains_Duplicate
 )
   add_executable(${name} ${name}.cpp)
   target_link_libraries(${name} PRIVATE)
