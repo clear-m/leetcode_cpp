@@ -20,6 +20,7 @@ foreach(name
     0278_First_Bad_Version
     0070_Climbing_Stairs
     0217_Contains_Duplicate
+    0190_Reverse_Bits
 )
   add_executable(${name} ${name}.cpp)
   target_link_libraries(${name} PRIVATE)
