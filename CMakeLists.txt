@@ -21,6 +21,8 @@ foreach(name
     0070_Climbing_Stairs
     0217_Contains_Duplicate
     0190_Reverse_Bits
+    0136_Single_Number
+    0242_Valid_Anagram
 )
   add_executable(${name} ${name}.cpp)
   target_link_libraries(${name} PRIVATE)
