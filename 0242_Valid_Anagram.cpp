@@ -107,12 +107,12 @@ bool is_anagram_ansi(std::string s, std::string t)
 int main(int argc, char **argv)
 {
     {
-        is_anagram_any_char<char8_t>(u8"anagram", u8"nagaram");
-        is_anagram_any_char<char8_t>(u8"rat", u8"car");
+        assert(is_anagram_any_char<char8_t>(u8"anagram", u8"nagaram"));
+        assert(!is_anagram_any_char<char8_t>(u8"rat", u8"car"));
     }
     {
-        is_anagram_any_string(std::u16string{u"anagram"}, std::u16string{u"nagaram"});
-        is_anagram_any_string(std::u32string{U"rat"}, std::u32string{U"car"});
+        assert(is_anagram_any_string(std::u16string{u"anagram"}, std::u16string{u"nagaram"}));
+        assert(!is_anagram_any_string(std::u32string{U"rat"}, std::u32string{U"car"}));
     }
     return 0;
 }
