@@ -23,6 +23,7 @@ foreach(name
     0190_Reverse_Bits
     0136_Single_Number
     0242_Valid_Anagram
+    0206_Reverse_Linked_List
 )
   add_executable(${name} ${name}.cpp)
   target_link_libraries(${name} PRIVATE)
