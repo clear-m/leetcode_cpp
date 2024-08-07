@@ -24,6 +24,8 @@ foreach(name
     0136_Single_Number
     0242_Valid_Anagram
     0206_Reverse_Linked_List
+    0101_Symmetric_Tree
+    0053_Maximum_Subarray
 )
   add_executable(${name} ${name}.cpp)
   target_link_libraries(${name} PRIVATE)
