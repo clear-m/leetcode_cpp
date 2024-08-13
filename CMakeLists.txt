@@ -26,6 +26,7 @@ foreach(name
     0206_Reverse_Linked_List
     0101_Symmetric_Tree
     0053_Maximum_Subarray
+    0326_Power_of_Three
 )
   add_executable(${name} ${name}.cpp)
   target_link_libraries(${name} PRIVATE)
