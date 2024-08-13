@@ -27,6 +27,7 @@ foreach(name
     0101_Symmetric_Tree
     0053_Maximum_Subarray
     0326_Power_of_Three
+    0118_Pascals_Triangle
 )
   add_executable(${name} ${name}.cpp)
   target_link_libraries(${name} PRIVATE)
