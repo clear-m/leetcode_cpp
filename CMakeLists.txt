@@ -28,6 +28,7 @@ foreach(name
     0053_Maximum_Subarray
     0326_Power_of_Three
     0118_Pascals_Triangle
+    0350_Intersection_of_Two_Arrays_II
 )
   add_executable(${name} ${name}.cpp)
   target_link_libraries(${name} PRIVATE)
