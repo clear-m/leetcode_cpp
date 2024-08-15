@@ -30,6 +30,7 @@ foreach(name
     0118_Pascals_Triangle
     0350_Intersection_of_Two_Arrays_II
     0125_Valid_Palindrome
+    0066_Plus_One
 )
   add_executable(${name} ${name}.cpp)
   target_link_libraries(${name} PRIVATE)
